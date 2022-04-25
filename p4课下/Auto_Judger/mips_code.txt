@@ -1,0 +1,34 @@
+subu $31,$31,$31
+label0: sw $2,2864($0)
+label1: addu $3,$1,$3
+label2: nop
+label3: lui $31,29592
+label4: lw $3,3888($0)
+label5: nop
+label6: ori $2,$3,41655
+label7: nop
+label8: addu $2,$0,$2
+label9: lw $31,3456($0)
+label10: lui $1,59883
+label11: addu $1,$3,$1
+label12: sw $1,1864($0)
+label13: lw $31,1716($0)
+label14: ori $31,$0,49030
+label15: lui $31,58759
+label16: lui $2,44011
+label17: ori $0,$3,52560
+label18: ori $1,$2,20303
+label19: sw $1,1960($0)
+label20: nop
+label21: sw $3,1500($0)
+label22: ori $1,$1,9514
+label23: nop
+label24: sw $2,2420($0)
+label25: ori $1,$2,38425
+label26: sw $0,2304($0)
+label27: sw $2,3484($0)
+label28: sw $1,2268($0)
+label29: lw $2,1348($0)
+label:
+ beq $0,$0,label
+nop
